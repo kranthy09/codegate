@@ -1,1 +1,24 @@
 codegate/
+
+# Dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+
+# Environment (never commit)
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# OS
+.DS_Store
+Thumbs.db
